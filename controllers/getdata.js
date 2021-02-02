@@ -1,5 +1,5 @@
-const profileData = async (req, res, next) => {
+const getProfileData = async (req, res, next) => {
   res.send("hello");
 };
 
-module.exports.profileData = profileData;
+module.exports.getProfileData = getProfileData;

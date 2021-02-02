@@ -27,7 +27,10 @@ const profileSchema = new mongoose.Schema({
   aboutMe: {
     type: String,
   },
-});
+
+}
+  { timestamps: true }
+);
 
 const Profile = mongoose.model("Profile", profileData);
 
