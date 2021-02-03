@@ -28,6 +28,10 @@ const profileSchema = new mongoose.Schema({
     type: String,
   },
 
+  imageUrl : {
+    type: String,
+  }
+
 }
   { timestamps: true }
 );
